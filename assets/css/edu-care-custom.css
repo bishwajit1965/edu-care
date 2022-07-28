@@ -1,0 +1,78 @@
+/* Google font Poppins
+====================== */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", "Bebas Neue", sans-serif;
+  font-size: 1.4rem;
+  /* font-family: "Bebas Neue", "Poppins", sans-serif; */
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* Global styles
+================ */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Color variables
+=================== */
+:root {
+  --button-color: #;
+  --bg-color: #;
+  --footer-bg: #;
+  --fa-bg: #;
+  --grey: #;
+  --heading-one: #fff;
+  --header-bg: #;
+  --light-grey: #;
+  --nav--bg: #;
+}
+
+/* Header section styles 
+========================*/
+
+/* Navigation styles */
+
+/* Slider styles  */
+.carousel-image-one {
+  background-image: url("../images/cover/cover-1.png");
+  height: 58rem;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-image-two {
+  background-image: url("../images/cover/cover-2.jpg");
+  height: 58rem;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-image-three {
+  background-image: url("../images/cover/cover-3.jpg");
+  height: 58rem;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Main section styles
+====================== */
+
+/* Footer section styles
+======================== */
