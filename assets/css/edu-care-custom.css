@@ -36,7 +36,7 @@ p {
 =================== */
 :root {
   --button-color: #;
-  --bg-color: #;
+  --bg-color: #f4fafd;
   --footer-bg: #;
   --fa-bg: #;
   --grey: #;
@@ -65,7 +65,7 @@ p {
   background-size: cover;
 }
 .carousel-image-three {
-  background-image: url("../images/cover/");
+  background-image: url("../images/cover/cover-3.jpg");
   height: 58rem;
   background-position: center;
   background-size: cover;
@@ -77,6 +77,8 @@ p {
 
 /* Main section styles
 ====================== */
-
+.e-learning-institute {
+  background-color: var(--bg-color);
+}
 /* Footer section styles
 ======================== */
