@@ -31,7 +31,7 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -55,7 +55,8 @@
           </div>
           <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <button class="nav-item">
-              <a class="nav-link py-1 px-3 fs-3 fw-bolder">Register</a>
+              <a class="nav-link py-1 px-3 fs-3 fw-bolder" data-bs-toggle="modal"
+            data-bs-target="#myModal">Register</a>
             </button>
           </div>
       </nav>
@@ -132,7 +133,7 @@
       </div>
     </div>
     <section class="row courseses-detail">
-      <div class="col-md-6">
+      <div class="col-sm-6 col-md-12 col-lg-6">
         <div class="course-wrapper d-flex align-items-center border border-1 my-3">
           <div class="image-area"><img style="width:250px; height:116px;" class="img-fluid img-thumbnail"
               src="assets/images/course/course-4.png" alt=""></div>
@@ -162,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-sm-6 col-md-12 col-lg-6">
         <div class="course-wrapper d-flex align-items-center border border-1 my-3">
           <div class="image-area"><img class="img-fluid img-thumbnail" src="assets/images/course/course-1.png" alt="">
           </div>
@@ -242,13 +243,11 @@
     <div class="modal fade" id="myModal">
       <div class="modal-dialog">
         <div class="modal-content">
-
           <!-- Modal Header -->
           <div class="modal-header">
             <h4 class="modal-title">Register Now</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-
           <!-- Modal body -->
           <div class="modal-body">
             <form action="">
@@ -276,7 +275,6 @@
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
-
           <!-- Modal footer -->
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -451,10 +449,7 @@
       <div class="title-area d-flex justify-content-center">
         <div class="title-wrapper">
           <h1 class="fs-1 fw-bold w-50 mx-auto text-center">Frequently Asked Questions</h1>
-          <p class="w-50 mx-auto">Here ae some of our successful students who have built their career learning from here
-            in different courses. We are simply proud of them for their excellent performance. you may a co-sharer of
-            the successful ones by joining courses of your choice here. Do not late and hesitate to be a proud lerner
-            here.</p>
+          <p class="w-50 mx-auto">Here ae some answers related to html and css that are frequently asked.</p>
         </div>
       </div>
       <div class="row">
@@ -462,7 +457,7 @@
          <div class="card">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
-                  <h1 class="accordion-header fs-1 fw-bold" style="font-size: 30px;" id="flush-headingOne">
+                  <h2 class="accordion-header" id="flush-headingOne">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -473,7 +468,7 @@
                     >
                       What is the difference between flex-box and grid?
                     </button>
-                  </h1>
+                  </h2>
                   <div
                     id="flush-collapseOne"
                     class="accordion-collapse collapse"
@@ -481,9 +476,7 @@
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      <p> Placeholder content for this accordion, which is intended
-                      to demonstrate the  accordion-flush class.
-                      This is the first item's accordion body.</p>
+                      <p> Flex box is one dimensional. It works either vertically or horizontally. On the other hand grid is two dimensional. It can work in both direction</p>
                      
                     </div>
                   </div>
@@ -508,10 +501,7 @@
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      Placeholder content for this accordion, which is intended
-                      to demonstrate the <code>.accordion-flush</code> class.
-                      This is the second item's accordion body. Let's imagine
-                      this being filled with some actual content.
+                      Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. On the other handTailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.
                     </div>
                   </div>
                 </div>
@@ -536,14 +526,7 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Placeholder content for this accordion, which is
-                        intended to demonstrate the
-                        <code>.accordion-flush</code> class. This is the third
-                        item's accordion body. Nothing more exciting happening
-                        here in terms of content, but just filling up the space
-                        to make it look, at least at first glance, a bit more
-                        representative of how this would look in a real-world
-                        application.
+                        In CSS,"box model" is used when to talk about design and layout. The CSS box model is a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
                       </p>
                     </div>
                   </div>
@@ -569,14 +552,7 @@
                   >
                     <div class="accordion-body">
                       <p>
-                        Placeholder content for this accordion, which is
-                        intended to demonstrate the
-                        <code>.accordion-flush</code> class. This is the third
-                        item's accordion body. Nothing more exciting happening
-                        here in terms of content, but just filling up the space
-                        to make it look, at least at first glance, a bit more
-                        representative of how this would look in a real-world
-                        application.
+                        Semantic in HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as header, footer and article and so are all considered semantic because they accurately describe the purpose of the element and the type of content that is put inside them.
                       </p>
                     </div>
                   </div>
@@ -589,7 +565,7 @@
     <!-- /Frequently asked questions section ends -->
 
     <!-- Trust worthiness section begins -->
-    <section class="trust-worthiness">
+    <section class="trust-worthiness my-5">
       <div class="title-area d-flex justify-content-center">
         <div class="title-wrapper">
           <h1 class="fs-1 fw-bold w-50 mx-auto text-center">Trusted by more than 800+ Companies</h1>
@@ -599,14 +575,14 @@
             here.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-1.png" alt="">
+      <div class="row my-5">
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-1.png" alt="">
         </div>
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-2.png" alt=""></div>
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-3.png" alt=""></div>
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-4.png" alt=""></div>
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-5.png" alt=""></div>
-        <div class="col-md-2"><img class="img-fluid" src="assets/images/company/company-6.png" alt=""></div>
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-2.png" alt=""></div>
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-3.png" alt=""></div>
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-4.png" alt=""></div>
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-5.png" alt=""></div>
+        <div class="col-md-2 col-4"><img class="img-fluid h-50" src="assets/images/company/company-6.png" alt=""></div>
       </div>
     </section>
     <!-- Trust worthiness section ends -->

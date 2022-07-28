@@ -1,16 +1,33 @@
 /* Google font Poppins
 ====================== */
+/* Global styles
+================ */
+* {
+  /* margin: 0;
+  padding: 0; */
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* Color variables
+=================== */
+:root {
+  --bg-color: #f4fafd;
+  --bg-yellow: #fbbf24;
+  --heading-one: #fff;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Poppins", "Bebas Neue", sans-serif;
-  /* font-size: 100%; */
+  font-size: 1.4rem;
 }
 h1 {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   font-weight: 900;
 }
+
 h2 {
   font-size: 3rem;
   font-weight: 800;
@@ -20,33 +37,8 @@ h3 {
   font-weight: 700;
 }
 p {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 400;
-}
-
-/* Global styles
-================ */
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-/* Color variables
-=================== */
-:root {
-  --button-color: #;
-  --bg-color: #f4fafd;
-  --bg-yellow: #fbbf24;
-  --footer-bg: #;
-  --fa-bg: #;
-  --grey: #;
-  --heading-one: #fff;
-  --header-bg: #;
-  --light-grey: #;
-  --nav--bg: #;
 }
 
 /* Header section styles 
@@ -88,3 +80,6 @@ p {
 }
 /* Footer section styles
 ======================== */
+.accordion-item h2 {
+  font-size: 100px !important;
+}
