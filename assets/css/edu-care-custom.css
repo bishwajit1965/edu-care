@@ -5,10 +5,12 @@ html {
 }
 body {
   font-family: "Poppins", "Bebas Neue", sans-serif;
-  font-size: 1.4rem;
-  /* font-family: "Bebas Neue", "Poppins", sans-serif; */
+  /* font-size: 100%; */
 }
-
+h1 {
+  font-size: 3.8rem;
+  font-weight: 900;
+}
 h2 {
   font-size: 3rem;
   font-weight: 800;
@@ -18,7 +20,7 @@ h3 {
   font-weight: 700;
 }
 p {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -37,6 +39,7 @@ p {
 :root {
   --button-color: #;
   --bg-color: #f4fafd;
+  --bg-yellow: #fbbf24;
   --footer-bg: #;
   --fa-bg: #;
   --grey: #;
@@ -79,6 +82,9 @@ p {
 ====================== */
 .e-learning-institute {
   background-color: var(--bg-color);
+}
+.fa-star {
+  color: var(--bg-yellow);
 }
 /* Footer section styles
 ======================== */
