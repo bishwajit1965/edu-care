@@ -54,3 +54,10 @@ body {
 .fa-star {
   color: var(--bg-yellow);
 }
+.button-slide-left {
+  margin-left: -165px !important;
+}
+
+.button-slide-right {
+  margin-right: -165px !important;
+}
