@@ -3,8 +3,8 @@
 /* Global styles
 ================ */
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
@@ -16,29 +16,9 @@
   --bg-yellow: #fbbf24;
   --heading-one: #fff;
 }
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Poppins", "Bebas Neue", sans-serif;
-  font-size: 1.4rem;
-}
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-}
 
-h2 {
-  font-size: 3rem;
-  font-weight: 800;
-}
-h3 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-p {
-  font-size: 1.4rem;
-  font-weight: 400;
+body {
+  font-family: "Poppins", "Aerial", sans-serif;
 }
 
 /* Header section styles 
@@ -49,25 +29,21 @@ p {
 /* Slider styles  */
 .carousel-image-one {
   background-image: url("../images/cover/cover-1.png");
-  height: 58rem;
+  height: 38rem;
   background-position: center;
   background-size: cover;
 }
 .carousel-image-two {
   background-image: url("../images/cover/cover-2.jpg");
-  height: 58rem;
+  height: 38rem;
   background-position: center;
   background-size: cover;
 }
 .carousel-image-three {
   background-image: url("../images/cover/cover-3.jpg");
-  height: 58rem;
+  height: 38rem;
   background-position: center;
   background-size: cover;
-}
-.large-image-size {
-  width: 80px;
-  height: 80px;
 }
 
 /* Main section styles
@@ -77,9 +53,4 @@ p {
 }
 .fa-star {
   color: var(--bg-yellow);
-}
-/* Footer section styles
-======================== */
-.accordion-item h2 {
-  font-size: 100px !important;
 }
